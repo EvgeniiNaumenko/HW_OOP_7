@@ -191,7 +191,7 @@ inline void ArrayT<T>::add(T el)
 }
 
 template<class T>
-inline void ArrayT<T>::append(const ArrayT& arr) // траблы
+inline void ArrayT<T>::append(const ArrayT& arr)
 {
 	_capacity += arr._capacity;
 	T* newArr = new T[_capacity];
@@ -212,7 +212,7 @@ inline void ArrayT<T>::append(const ArrayT& arr) // траблы
 }
 
 template<class T>
-inline void ArrayT<T>::operator=(const ArrayT& arr) // ТУТ БЕДА
+inline void ArrayT<T>::operator=(const ArrayT& arr)
 {
 	_capacity = arr._capacity;
 	_size = arr._size;

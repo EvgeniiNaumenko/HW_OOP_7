@@ -74,7 +74,7 @@ int main()
 	list.append(list2); // склеили 1й лист и 2й  в первом листе
 	list.print(); //печатаем
 	ArrayT<int> list3;
-	list3 = list2;
+	list3 = list2; //копируем лист 2 в лист 3
 	list3.add(777777);
 	list3.print(); //печатаем
 
